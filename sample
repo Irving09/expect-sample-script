@@ -3,7 +3,7 @@
 set pw [lindex $argv 0];
 set timeout -1
 
-spawn /path/to/script/file.sh
+spawn /file.sh
 
 expect "Password:"
 
