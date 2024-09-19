@@ -1,0 +1,12 @@
+#!/usr/bin/expect -f
+
+set pw [lindex $argv 0];
+set timeout -1
+
+spawn /path/to/script/file.sh
+
+expect "Password:"
+
+send -- "$pw\r"
+
+expect eof
