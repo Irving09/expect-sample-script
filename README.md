@@ -1,3 +1,6 @@
+### Requirements
+`brew install expect`
+
 ### Sample usage
 
 ```
