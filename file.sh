@@ -1,1 +1,1 @@
-echo "hello world. Password: "
+echo "hello world. Password:"
